@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Description</title>
+    <style>
+        /* Your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(120deg, #a8e063, #56ab2f); /* Green to blue gradient */
+            color: #333; /* Default text color */
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ff6347;
+        }
+
+        .section {
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            font-size: 2.5rem; /* Larger heading size */
+            color: #fff; /* White text color for contrast */
+            text-align: center;
+        }
+
+        p {
+            font-size: 1.2rem; /* Larger paragraph text size */
+            line-height: 1.6; /* Increased line height for readability */
+            color: #fff; /* White text color for contrast */
+        }
+
+        .content-block {
+            display: flex;
+            align-items: center;
+            margin-bottom: 4rem;
+        }
+
+        .content-block:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        .text, .image {
+            flex: 1;
+            padding: 1rem;
+        }
+
+        .image img {
+            max-width: 100%;
+            border-radius: 10px; /* Rounded corners for images */
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Drop shadow effect */
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        @media (max-width: 768px) {
+            nav ul li {
+                display: block;
+                text-align: center;
+            }
+            .content-block {
+                flex-direction: column;
+            }
+            .content-block:nth-child(even) {
+                flex-direction: column;
+            }
+        }
+        .button-container {
+    text-align: center;
+}
+
+.button {
+    background: linear-gradient(#63d471, #388e3c); /* Light to dark green gradient */
+    border: none;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background: linear-gradient(#388e3c, #1b5e20); /* Darker to darker green gradient on hover */
+}
+
+
+.button:hover {
+    background-color: #45a049; /* Darker Green */
+}
+body {
+    background: linear-gradient(#a8e063, #56ab2f); /* Green gradient */
+    background-size: 400% 400%; /* Increase the size of the background */
+    animation: gradientAnimation 10s infinite; /* Adjust the animation duration */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333; /* Default text color */
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; } /* Starting point */
+    50% { background-position: 100% 50%; } /* Midpoint */
+    100% { background-position: 0% 50%; } /* Endpoint */
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bussiness Description</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="section1.html">Business Description</a></li>
+                <li><a href="section2.html">Market Analysis</a></li>
+                <li><a href="section3.html">Sales & Marketing</a></li>
+                <li><a href="section4.html">Management</a></li>
+                <li><a href="section5.html">Financials</a></li>
+                <li><a href="section6.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="section">
+        <!-- Content blocks -->
+
+        <div class="content-block">
+            <div class="text">
+                <h2>3.0 – Market & Industry Analysis</h2>
+                
+            </div>
+            <div class="image">
+               
+            </div>
+        </div>
+        <div>
+            <style>
+                body {
+                  margin: 0;
+                  padding: 0;
+                  width: 100%;
+                  height: 100vh;
+                }
+                .center {
+                  width: 100%;
+                  height: 100%;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  flex-direction: column;
+                }
+                .book {
+                  width: 400px;
+                  height: 300px;
+                  position: relative;
+                }
+                .pages {
+                  width: 100%;
+                  height: 100%;
+                  position: relative;
+                }
+                .page {
+                  width: 380px;
+                  height: 270px;
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  border-radius: 7mm;
+                  margin: 0 6px;
+                  transform-style: preserve-3d;
+                  transform-origin: left;
+                  transition: 0.25s;
+                  box-shadow: 1px 2px 0 0 rgba(0, 0, 0, 0.15),
+                    1px 3px 1px 0 rgba(0, 0, 0, 0.1);
+                }
+                .page-side {
+                  width: 100%;
+                  height: 100%;
+                  box-sizing: border-box;
+                  padding: 20px 30px;
+                  display: flex;
+                  align-items: flex-start;
+                  justify-content: center;
+                  flex-direction: column;
+                  font-family: poppins;
+                  border-radius: 7mm;
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  backface-visibility: hidden;
+                }
+                .page-head {
+                  width: 100%;
+                }
+                .page-title {
+                  width: 100%;
+                  display: flex;
+                  align-items: center;
+                  justify-content: space-between;
+                  font-size: 40px;
+                  font-weight: 500;
+                }
+                .page-subtitle {
+                  font-size: 12px;
+                  font-weight: 300;
+                }
+                .page-content {
+                  flex-grow: 1;
+                  font-size: 14px;
+                  display: flex;
+                  align-items: flex-end;
+                }
+                .page-footer {
+                  width: 100%;
+                  display: flex;
+                  align-items: center;
+                  justify-content: space-between;
+                  margin-top: 15px;
+                  font-size: 14px;
+                }
+                .pg-no {
+                  width: 14px;
+                  padding: 0 15px;
+                  height: 20px;
+                  line-height: 20px;
+                  text-align: center;
+                  color: rgb(40, 40, 40);
+                  background: white;
+                  border-radius: 3mm;
+                }
+                .front {
+                  background: rgb(255, 228, 130);
+                  color: rgb(40, 40, 40);
+                  padding-left: 40px;
+                }
+                .back {
+                  background: rgb(40, 40, 40);
+                  color: white;
+                  padding-right: 40px;
+                  transform: rotateY(180deg);
+                }
+                .beads {
+                  position: absolute;
+                  top: 0;
+                  left: -12px;
+                  height: 270px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: space-evenly;
+                  flex-direction: column;
+                  z-index: 9999;
+                }
+                .bead {
+                  width: 36px;
+                  height: 12px;
+                  background: white;
+                  border-radius: 5mm;
+                  z-index: 9999;
+                  box-shadow: inset 1px 2px 0 0 rgba(0, 0, 0, 0.15),
+                    inset 1px 3px 1px 0 rgba(0, 0, 0, 0.1);
+                }
+                .controls {
+                  width: 350px;
+                  height: fit-content;
+                  display: flex;
+                  align-items: center;
+                  justify-content: space-between;
+                }
+                .controls button {
+                  background: white;
+                  width: 40px;
+                  height: 40px;
+                  border: 0.4mm solid rgb(40, 40, 40);
+                  border-radius: 50%;
+                  outline: none;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  cursor: pointer;
+                }
+              </style>
+            </head>
+            <body>
+              <div class="center">
+                <div class="book">
+                  <div class="pages">
+                    <div class="beads">
+                      <div class="bead"></div>
+                      <div class="bead"></div>
+                      <div class="bead"></div>
+                      <div class="bead"></div>
+                    </div>
+          
+                    <div class="page active">
+                      <div class="page-side front">
+                        <div class="page-head">
+                          <div class="page-title">
+                            Who are They
+                            <span class="material-icons-outlined"></span>
+                          </div>
+                          <div class="page-subtitle"></div>
+                        </div>
+                        <div class="page-content">
+                            Gardeners that would like a more efficient planting process. 
+                        </div>
+                        <div class="page-footer">
+                          <span></span>
+                          <span class="pg-no">1</span>
+                        </div>
+                      </div>
+          
+                      <div class="page-side back">
+                        <div class="page-head">
+                          <div class="page-title">
+                            Where Are They
+                            <span class="material-icons-outlined"></span>
+                          </div>
+                          <div class="page-subtitle"></div>
+                        </div>
+                        <div class="page-content">
+                            People all around the world that have access to fertile land. 
+                        </div>
+                        <div class="page-footer">
+                          <span></span>
+                          <span class="pg-no">2</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="page">
+                      <div class="page-side front">
+                        <div class="page-head">
+                          <div class="page-title">
+                        What Do They Need
+                            <span class="material-icons-outlined"></span>
+                          </div>
+                          <div class="page-subtitle"></div>
+                        </div>
+                        <div class="page-content">
+                            Double A batteries, seeds, fertilizer, coconut shells, eggshells 
+                        </div>
+                        <div class="page-footer">
+                          <span></span>
+                          <span class="pg-no">3</span>
+                        </div>
+                      </div>
+                      <div class="page-side back">
+                        <div class="page-head">
+                          <div class="page-title">
+                            How do they make their buying decisions
+                            <span class="material-icons-outlined"></span>
+                          </div>
+                          <div class="page-subtitle"></div>
+                        </div>
+                        <div class="page-content">
+                            They care about quality and are willing to pay a costly price for efficiency. 
+                        </div>
+                        <div class="page-footer">
+                          <span></span>
+                          <span class="pg-no">4</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="page">
+                      <div class="page-side front">
+                        <div class="page-head">
+                          <div class="page-title">
+                            Where Do They Buy
+                            <span class="material-icons-outlined"> </span>
+                          </div>
+                          <div class="page-subtitle"></div>
+                        </div>
+                        <div class="page-content">
+                            They will buy it at our website and or if we market at home improvement wholesalers like Home Depot. 
+                        </div>
+                        <div class="page-footer">
+                          <span></span>
+                          <span class="pg-no">5</span>
+                        </div>
+                      </div>
+                      <div class="page-side back">
+                        <div class="page-head">
+                          <div class="page-title">
+                           
+                            <span class="material-icons-outlined">  </span>
+                          </div>
+                          <div class="page-subtitle"></div>
+                        </div>
+                        <div class="page-content">
+                         
+                        </div>
+                        <div class="page-footer">
+                          <span></span>
+                          <span class="pg-no">6</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="page"></div>
+                  </div>
+                </div>
+                <div class="controls">
+                  <button type="button" class="btn" onclick="previous()">
+                    <span class="material-icons-outlined"></span>
+                  </button>
+                  <button type="button" class="btn" onclick="next()">
+                    <span class="material-icons-outlined"></span>
+                  </button>
+                </div>
+              </div>
+              <script>
+                function setIndex() {
+                  let pages = document.querySelectorAll(".page");
+                  for (var i = 0; i < pages.length; i++) {
+                    pages[i].style.zIndex = pages.length - i;
+                  }
+                }
+          
+                setIndex();
+          
+                function previous() {
+                  let active = document.querySelector(".active");
+                  let prevSib = active.previousElementSibling;
+                  active.className = "page";
+                  prevSib.className = "page active";
+                  setIndex();
+                  prevSib.style.transform = "rotateY(0deg)";
+                  let prevSib2 = prevSib.previousElementSibling;
+                  if (prevSib2 && prevSib2.className == "page") {
+                    prevSib2.style.zIndex = "9998";
+                  }
+                }
+          
+                function next() {
+                  let active = document.querySelector(".active");
+                  let nextSib = active.nextElementSibling;
+                  active.style.transform = "rotateY(180deg)";
+                  active.className = "page";
+                  setIndex();
+                  active.style.zIndex = "9998";
+                  if (nextSib) {
+                    nextSib.className = "page active";
+                  }
+                }
+              </script>
+
+
+        </div>
+
+        <div class="content-block">
+            <div class="text">
+                <h2>3.2 – Market Segment</h2>
+                <p>Our target market group is people who want to plant seeds efficiently and are amateurs to gardeners. Because of the versatility of this product, kids to seniors can use this piece of technology. Additionally, we will try to market a lot to farmers and gardeners who want to plant a lot.</p>
+            </div>
+            <div class="image">
+                <img src="https://149352772.v2.pressablecdn.com/wp-content/uploads/2020/01/Tennessee_VictoryGarden69-scaled.jpg">
+            </div>
+        </div>
+
+        <div class="content-block">
+            <div class="text">
+                <h2>3.3 – Competition</h2>
+                <p>Our product is creating a new space in the market for planting seeds effectively and efficiently. This means we have no direct competition in the market, making our product have all the market shares. However, we do have indirect competition with traditional gardening tools, such as spades and shovels. However, big farmers and avid gardeners do not want to use the experience of spades and shovels; instead, they want to plant many seeds. In other words, we can capture their interests in our product and ensure that they buy our technology.</p>
+            </div>
+            <div class="image">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/No_sign.svg/480px-No_sign.svg.png">
+            </div>
+        </div>
+
+        <!-- More content blocks -->
+
+        <div class="button-container">
+            <a href="Section3.html" class="button">Sales and Marketing</a>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2024 Interactive Business Plan
+    </footer>
+</body>
+</html>
